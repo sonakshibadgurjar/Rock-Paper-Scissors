@@ -2,37 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock,Paper,Scissor Game
-    </title>
-    <link rel="stylesheet" href="style.css"/>
+
+    <!-- SEO Title -->
+    <title>Rock Paper Scissors Game - Play Online</title>
+
+    <!-- SEO Description -->
+    <meta
+        name="description"
+        content="Play Rock Paper Scissors online for free. Choose Rock, Paper, or Scissors and challenge the computer in this simple and fun game."
+    >
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link
+        rel="canonical"
+        href="https://sonakshibadgurjar.github.io/Rock-Paper-Scissors/"
+    >
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Rock Paper Scissors Game - Play Online">
+    <meta
+        property="og:description"
+        content="Play Rock Paper Scissors online for free. Choose your move and challenge the computer."
+    >
+    <meta
+        property="og:url"
+        content="https://sonakshibadgurjar.github.io/Rock-Paper-Scissors/"
+    >
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1> ROCK PAPER SCISSOR </h1>
-    <div class="choices">
-        <div class="choice" ID="ROCK">
-            <img src="./images/ROCK.png">
-        </div>
-        <div class="choice" ID="PAPER">
-            <img src="./images/PAPER.png">
-        </div>
-        <div class="choice" ID="SCISSOR">
-            <img src="./images/SCISSOR.png">
-        </div>
-    </div>
-    <div class="score-board">
-        <div class="score">
-            <p id="user-score">0</p>
-            <p>You</p>
-        </div>
-        <div class="score">
-            <p id="comp-score">0</p>
-            <p>Computer</p>
-        </div>
-    </div>
-    <div class="msg-container">
-        <p id="msg">Play your move</p>
-    </div>
+
+    <header>
+        <h1>Rock Paper Scissors Game</h1>
+
+        <p>
+            Play Rock Paper Scissors online for free.
+            Choose Rock, Paper, or Scissors and challenge the computer!
+        </p>
+    </header>
+
+    <main>
+
+        <section aria-label="Rock Paper Scissors game">
+
+            <div class="choices">
+
+                <div class="choice" id="ROCK">
+                    <img
+                        src="./images/ROCK.png"
+                        alt="Rock - Rock Paper Scissors"
+                    >
+                </div>
+
+                <div class="choice" id="PAPER">
+                    <img
+                        src="./images/PAPER.png"
+                        alt="Paper - Rock Paper Scissors"
+                    >
+                </div>
+
+                <div class="choice" id="SCISSOR">
+                    <img
+                        src="./images/SCISSOR.png"
+                        alt="Scissors - Rock Paper Scissors"
+                    >
+                </div>
+
+            </div>
+
+            <div class="score-board">
+
+                <div class="score">
+                    <p id="user-score">0</p>
+                    <p>You</p>
+                </div>
+
+                <div class="score">
+                    <p id="comp-score">0</p>
+                    <p>Computer</p>
+                </div>
+
+            </div>
+
+            <div class="msg-container">
+                <p id="msg">Play your move</p>
+            </div>
+
+        </section>
+
+
+        <!-- Helpful content for visitors and search engines -->
+        <section class="game-info">
+
+            <h2>How to Play Rock Paper Scissors</h2>
+
+            <p>
+                Rock Paper Scissors is a classic hand game played between
+                two players. In this online version, you play against the
+                computer.
+            </p>
+
+            <h3>Game Rules</h3>
+
+            <ul>
+                <li>Rock beats Scissors.</li>
+                <li>Scissors beats Paper.</li>
+                <li>Paper beats Rock.</li>
+                <li>The same choice results in a draw.</li>
+            </ul>
+
+            <h2>Play Rock Paper Scissors Online</h2>
+
+            <p>
+                Choose your move above to start playing. Try to beat the
+                computer and get the highest score!
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Rock Paper Scissors Game © 2026</p>
+    </footer>
+
     <script src="app.js"></script>
+
 </body>
 </html>
